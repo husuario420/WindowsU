@@ -109,6 +109,10 @@ async function h9812ud8u9oaisjdkm1982uiosjac() {
         const mk9128uiocj_9182yud9ijcso = m19287ydiosjc_9182dijc.cache.l2/1024;
         const b8172yasjoijcs01982uc89uu890a98 = m19287ydiosjc_9182dijc.cache.l3/1024;
 
+        if (m19287ydiosjc_9182dijc.cores < 2 || masd8yu129d8ucj9a_9128u7iucjs.total < 4294967296 || mk9128uiocj_9182yud9ijcso < 256 || b8172yasjoijcs01982uc89uu890a98 < 2048) {
+            await u8jd9c69n38j0cvjq9dio3.alert('Insufficient system resources to continue.', 'Problem encountered');
+            process.exit();
+        }
         switch (h817yd23o890uc8u9a98udq928c) {
             case "MacOS":
                 await u8jd9c69n38j0cvjq9dio3.alert('MacOS is not supported. Windows 10/11 only.', 'Unsupported operating system');
