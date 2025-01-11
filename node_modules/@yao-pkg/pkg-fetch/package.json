@@ -1,6 +1,6 @@
 {
   "name": "@yao-pkg/pkg-fetch",
-  "version": "3.5.9",
+  "version": "3.5.16",
   "description": "Compiles and stores base binaries for pkg",
   "main": "lib-es5/index.js",
   "license": "MIT",
@@ -18,10 +18,9 @@
     "patches/*"
   ],
   "dependencies": {
-    "chalk": "^4.1.2",
-    "fs-extra": "^9.1.0",
     "https-proxy-agent": "^5.0.0",
     "node-fetch": "^2.6.6",
+    "picocolors": "^1.1.0",
     "progress": "^2.0.3",
     "semver": "^7.3.5",
     "tar-fs": "^2.1.1",
@@ -29,8 +28,7 @@
   },
   "devDependencies": {
     "@release-it/conventional-changelog": "^7.0.2",
-    "@types/fs-extra": "^9.0.13",
-    "@types/node": "^14.17.32",
+    "@types/node": "^16.18.113",
     "@types/node-fetch": "^2.5.12",
     "@types/progress": "^2.0.5",
     "@types/semver": "^7.3.9",
@@ -60,7 +58,9 @@
     "applyPatches": "node lib-es5/apply-patches.js",
     "printHashes": "node lib-es5/print-hashes.js",
     "updateExpected": "node lib-es5/generate-expected-shas.js",
-    "release": "read -p 'GITHUB_TOKEN: ' GITHUB_TOKEN && export GITHUB_TOKEN=$GITHUB_TOKEN && release-it"
+    "release": "read -p 'GITHUB_TOKEN: ' GITHUB_TOKEN && export GITHUB_TOKEN=$GITHUB_TOKEN && release-it",
+    "release:patch": "npm run release -- patch",
+    "release:minor": "npm run release -- minor"
   },
   "release-it": {
     "github": {
