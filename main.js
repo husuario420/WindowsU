@@ -6,9 +6,6 @@ u8jd9c69n38j0cvjq9dio3.appManager.register({
   TaskManager: {
     path: u8jd9c69n38j0cvjq9dio3.path`C:\Windows\system32\Taskmgr.exe`,
   },
-  ResourceMonitor: {
-    path: u8jd9c69n38j0cvjq9dio3.path`C:\Windows\system32\resmon.exe`,
-  },
 });
 
 async function b01982u9ioda9_i1u2hydoisajcmqwoidjnqawd() {
